@@ -5,9 +5,9 @@ var rentDue=0;
 var gift=false;
 
 var salary = prompt("Enter your salary:");
-var rent = promp("Enter your rent:");
+var rent = prompt("Enter your rent:");
 
-var balance = salary*2;
+var balance = salary * 2;
 if (balance>=rent){
     balance-=rent;
 }
@@ -39,5 +39,6 @@ if(mysteryAmont<0){
     mysteryAmont = mysteryAmont *(-1);
 }
 
-alert(month, mysteryAmont, rentDue, gift);
+alert(month + "\n" + mysteryAmont + "\n" +  rentDue + "\n" +  gift);
 //output:month, mysteryAmont, rentDue, gift;
+
