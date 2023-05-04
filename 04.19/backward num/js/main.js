@@ -1,5 +1,5 @@
-num = +prompt("Enter a number:");
-rev = "";
+var num = +prompt("Enter a number:");
+var rev = "";
 while(num != 0){
     b = num % 10;
     rev += b;
